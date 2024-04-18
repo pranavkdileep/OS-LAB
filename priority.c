@@ -51,4 +51,10 @@ int main() {
 
     printf("\nAverage Waiting Time: %.2f ms", wt_avg);
     printf("\nAverage Turnaround Time: %.2f ms\n", tt_avg);
+    printf("\t\t\t Gantt Chart \t\t\t\n");
+    printf("0");
+    for (i = 0; i < n; i++)
+        printf("  P%d  %d", p[i], tt[i]);
+    printf("\n");
+    return 0;
 }
