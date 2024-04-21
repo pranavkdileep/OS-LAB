@@ -34,7 +34,7 @@ int main()
     }
     printf("Average Turn Around Time: %f\n",avgTAT);
     printf("Average Waiting Time: %f\n",avgWT);
-    printf("Gantt Chart: ");    
+      
 
     printf("\t\t\t Gantt Chart \t\t\t\n");
     printf("0");
